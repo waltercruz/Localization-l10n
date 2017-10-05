@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-core\n"
-"POT-Creation-Date: 2017-07-17 12:05:12+00:00\n"
-"PO-Revision-Date: 2016-03-07 15:14-0000\n"
+"POT-Creation-Date: 2017-10-04 16:08-0300\n"
+"PO-Revision-Date: 2017-10-04 16:15-0300\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
 "avada/language/pt_BR/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 2.0.1\n"
 "X-Poedit-Basepath: /Users/muhammadharis/Dropbox/projects/avada/wp-content/"
 "plugins/fusion-core\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
@@ -512,8 +512,7 @@ msgstr "Exportar Todos os Sliders"
 msgid "Choose a file from your computer:"
 msgstr "Escolha um arquivo a partir do seu computador:"
 
-#: fusion-slider/templates/slider.php:30
-#: shortcodes/fusion-fusionslider.php:143
+#: fusion-slider/templates/slider.php:30 shortcodes/fusion-fusionslider.php:143
 msgid "Loading..."
 msgstr ""
 
@@ -962,7 +961,7 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1420
 msgid "Content Position"
-msgstr ""
+msgstr "Posição do Conteúdo"
 
 #: shortcodes/fusion-portfolio.php:1421
 msgid ""
@@ -1076,7 +1075,7 @@ msgstr "Rolagem Infinita"
 
 #: shortcodes/fusion-portfolio.php:1635
 msgid "Hide URL Parameter"
-msgstr ""
+msgstr "Esconder Parâmetro da URL"
 
 #: shortcodes/fusion-portfolio.php:1636
 msgid ""
@@ -1086,11 +1085,11 @@ msgstr ""
 
 #: shortcodes/fusion-portfolio.php:1640
 msgid "On"
-msgstr ""
+msgstr "On"
 
 #: shortcodes/fusion-portfolio.php:1641
 msgid "Off"
-msgstr ""
+msgstr "Off"
 
 #: shortcodes/fusion-portfolio.php:1653
 msgid "Post Offset"
@@ -1241,7 +1240,7 @@ msgstr ""
 
 #: shortcodes/previews/fusion-portfolio-preview.php:12
 msgid "layout = %s"
-msgstr ""
+msgstr "layout = %s"
 
 #: shortcodes/previews/fusion-portfolio-preview.php:20
 msgid "tags = %s"
@@ -1255,7 +1254,7 @@ msgstr ""
 #: templates/single-avada_portfolio.php:38
 #: templates/single-avada_portfolio.php:53
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: templates/single-avada_portfolio.php:60
 #: templates/single-avada_portfolio.php:68
@@ -1295,13 +1294,12 @@ msgstr ""
 
 #: templates/single-avada_portfolio.php:224
 msgid "By:"
-msgstr ""
+msgstr "Por:"
 
 # @ fusion-core
 #. Plugin Name of the plugin/theme
-#, fuzzy
 msgid "Fusion Core"
-msgstr "Slider de Fusão"
+msgstr "Fusion Core"
 
 #. Author URI of the plugin/theme
 msgid "http://theme-fusion.com"
@@ -1341,16 +1339,15 @@ msgstr ""
 #: fusion-core.php:283
 msgctxt "Post Type Singular Name"
 msgid "Portfolio"
-msgstr ""
+msgstr "Portfolio"
 
 #: fusion-core.php:349
 msgctxt "Post Type Singular Name"
 msgid "FAQ"
-msgstr ""
+msgstr "Perguntas Frequentes"
 
 # @ fusion-core
 #: fusion-core.php:391
-#, fuzzy
 msgctxt "Post Type Singular Name"
 msgid "Elastic Slider"
 msgstr "Slider Elástico"
@@ -1408,6 +1405,14 @@ msgstr "Buscar no Site"
 msgctxt "Taxonomy Singular Name"
 msgid "Group"
 msgstr ""
+
+# @ fusion-core
+msgid "Read More"
+msgstr "Leia Mais"
+
+# @ Avada
+msgid "By"
+msgstr "Por"
 
 # @ wordpress-importer
 #~ msgid "There was an error when reading this WXR file"
@@ -5193,10 +5198,6 @@ msgstr ""
 #~ msgstr "%"
 
 # @ fusion-core
-#~ msgid "Read More"
-#~ msgstr "Ler Mais"
-
-# @ fusion-core
 #~ msgid "No location found for the entered address."
 #~ msgstr "Nenhum local encontrado para o endereço digitado."
 
@@ -6107,10 +6108,6 @@ msgstr ""
 # @ Avada
 #~ msgid "Details"
 #~ msgstr "Detalhes"
-
-# @ Avada
-#~ msgid "By"
-#~ msgstr "Por"
 
 # @ fusion-core
 #~ msgid ""

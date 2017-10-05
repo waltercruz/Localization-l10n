@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-07-17 12:03:57+00:00\n"
-"PO-Revision-Date: 2016-11-30 13:37-0200\n"
+"PO-Revision-Date: 2017-10-05 11:46-0300\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
 "avada/language/pt_BR/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.1\n"
 
 # @ Avada
 #: 404.php:20
@@ -55,14 +55,13 @@ msgstr "Pesquise o Fórum..."
 
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
-#, fuzzy
 msgid "In reply to: "
-msgstr "- Responder"
+msgstr "Em resposta a: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
 msgid "Topic: "
-msgstr "Tipo"
+msgstr "Tópico: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:49
@@ -77,14 +76,13 @@ msgstr "Função no Fórum:"
 
 # @ bbpress
 #: bbpress/loop-single-reply.php:44
-#, fuzzy
 msgid "in reply to: "
-msgstr "- Responder"
+msgstr "em resposta a: "
 
 # @ Avada
 #: comments.php:31
 msgid "No Comments"
-msgstr "Nenhum Comentário."
+msgstr "Nenhum Comentário"
 
 # @ Avada
 #: comments.php:31
@@ -285,7 +283,7 @@ msgstr ""
 
 #: includes/admin-screens/demos.php:41
 msgid "All Demos"
-msgstr ""
+msgstr "Todas as Demos"
 
 # @ bbpress
 #: includes/admin-screens/demos.php:65
@@ -303,7 +301,7 @@ msgstr ""
 
 #: includes/admin-screens/demos.php:83
 msgid "FAQs"
-msgstr ""
+msgstr "FAQs"
 
 # @ Avada
 #: includes/admin-screens/demos.php:89
@@ -316,7 +314,7 @@ msgstr ""
 
 #: includes/admin-screens/demos.php:101
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: includes/admin-screens/demos.php:107
 msgid "Images"
@@ -396,7 +394,7 @@ msgstr "Ativar"
 
 #: includes/admin-screens/demos.php:307
 msgid "Import Content"
-msgstr ""
+msgstr "Importar Conteúdo"
 
 #: includes/admin-screens/demos.php:307
 msgid "(menus only import with \"All\")"
@@ -428,7 +426,7 @@ msgstr "Remover"
 
 #: includes/admin-screens/demos.php:339
 msgid "Done"
-msgstr ""
+msgstr "Feito"
 
 # @ Avada
 #: includes/admin-screens/demos.php:354 includes/admin-screens/faq.php:126
@@ -446,7 +444,7 @@ msgstr ""
 
 #: includes/admin-screens/demos.php:359
 msgid "Warning "
-msgstr ""
+msgstr "Aviso "
 
 #: includes/admin-screens/demos.php:369
 msgid "Avada Demos Can Only Be Imported With A Valid Token Registration"
@@ -510,7 +508,7 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:45
 msgid "View Avada Documentation"
-msgstr ""
+msgstr "Ver a Documentação do Avada"
 
 #: includes/admin-screens/faq.php:46
 msgid "View Avada Video Tutorials"
@@ -580,7 +578,7 @@ msgstr ""
 
 #: includes/admin-screens/faq.php:93
 msgid "Avada Video Tutorials"
-msgstr ""
+msgstr "Tutoriais em Vídeo do Avada"
 
 #: includes/admin-screens/faq.php:100
 msgid "What Are The Requirements For Using Avada?"
@@ -725,9 +723,8 @@ msgstr "Enviar um ticket"
 
 # @ Avada
 #: includes/admin-screens/support.php:33 includes/admin-screens/support.php:35
-#, fuzzy
 msgid "Documentation"
-msgstr "Documentação On-line"
+msgstr "Documentação"
 
 # @ Avada
 #: includes/admin-screens/support.php:34
@@ -781,9 +778,8 @@ msgstr ""
 
 # @ Avada
 #: includes/admin-screens/support.php:53 includes/admin-screens/support.php:55
-#, fuzzy
 msgid "Facebook Group"
-msgstr "Facebook"
+msgstr "Grupo do Facebook"
 
 #: includes/admin-screens/support.php:54
 msgid ""
@@ -815,7 +811,7 @@ msgstr "Copiado!"
 #: includes/admin-screens/system-status.php:28
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:63
 msgid "Copy for Support"
-msgstr ""
+msgstr "Copiar par o Suporte"
 
 #: includes/admin-screens/system-status.php:34
 #: includes/admin-screens/system-status.php:38
@@ -852,7 +848,7 @@ msgstr "Versão %s"
 
 #: includes/admin-screens/system-status.php:119
 msgid "Avada 4.0 Conversion:"
-msgstr "Avada 4.0 Conversão:"
+msgstr "Conversão do Avada 4.0:"
 
 #: includes/admin-screens/system-status.php:124
 msgid "Rerun Theme Options Conversion from version %s to version 4.0 manually."
@@ -909,7 +905,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:229
 msgid "Home URL:"
-msgstr "URL da Imagem"
+msgstr "Home URL:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:230
@@ -925,7 +921,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:235
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:92
 msgid "The root URL of your site."
-msgstr ""
+msgstr "A URL raiz do seu site."
 
 #: includes/admin-screens/system-status.php:239
 msgid "WP Content Path:"
@@ -937,10 +933,10 @@ msgstr ""
 
 # @ woocommerce
 #: includes/admin-screens/system-status.php:241
-#: includes/admin-screens/system-status.php:246
-#: templates/wc-view-order.php:167 templates/wc-view-order.php:184
+#: includes/admin-screens/system-status.php:246 templates/wc-view-order.php:167
+#: templates/wc-view-order.php:184
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: includes/admin-screens/system-status.php:244
 msgid "WP Path:"
@@ -972,7 +968,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:259
 msgid "PHP Memory Limit:"
-msgstr ""
+msgstr "Limite de Memória do PHP:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:260
@@ -1018,7 +1014,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:313
 msgid "Server Info:"
-msgstr "Informações de Cabeçalho"
+msgstr "Informação do Servidor"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:314
@@ -1059,7 +1055,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:348
 msgid "PHP Time Limit:"
-msgstr ""
+msgstr "PHP Time Limit:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:349
@@ -1102,7 +1098,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:398
 msgid "SUHOSIN Installed:"
-msgstr "Não Instalado"
+msgstr "SUHOSIN instalado:"
 
 #: includes/admin-screens/system-status.php:399
 msgid ""
@@ -1117,7 +1113,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:405
 msgid "Suhosin Post Max Vars:"
-msgstr "Mostrar as Postagens Meta"
+msgstr "Suhosin Post Max Vars:"
 
 #: includes/admin-screens/system-status.php:440
 msgid "Suhosin Request Max Vars:"
@@ -1144,7 +1140,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:491
 msgid "ZipArchive:"
-msgstr "Arquivos Diários:"
+msgstr "ZipArchive:"
 
 #: includes/admin-screens/system-status.php:492
 msgid ""
@@ -1154,7 +1150,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:496
 msgid "MySQL Version:"
-msgstr ""
+msgstr "Versão do MySQL:"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:497
@@ -1174,7 +1170,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:509
 msgid "DOMDocument:"
-msgstr ""
+msgstr "DOMDocument:"
 
 #: includes/admin-screens/system-status.php:510
 msgid ""
@@ -1195,7 +1191,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/system-status.php:523
 msgid "WP Remote Post:"
-msgstr "Postagens Relacionadas"
+msgstr "WP Remote Post:"
 
 #: includes/admin-screens/system-status.php:532
 msgid "GD Library:"
@@ -1222,7 +1218,7 @@ msgstr ""
 #: includes/admin-screens/system-status.php:562
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:531
 msgid "Active Plugins"
-msgstr ""
+msgstr "Plugins Ativos"
 
 # @ Avada
 #: includes/admin-screens/system-status.php:579
@@ -1232,7 +1228,7 @@ msgstr ""
 
 #: includes/admin-screens/system-status.php:590
 msgid "by %s"
-msgstr ""
+msgstr "por %s"
 
 #: includes/admin-screens/system-status.php:610
 msgid ""
@@ -1267,7 +1263,7 @@ msgstr ""
 
 #: includes/admin-screens/welcome.php:27
 msgid "Welcome To Avada"
-msgstr ""
+msgstr "Bem Vindo ao Avada"
 
 #: includes/admin-screens/welcome.php:28
 msgid ""
@@ -1369,8 +1365,7 @@ msgstr "Carrinho"
 
 # @ Avada
 #: includes/avada-functions.php:557 includes/avada-functions.php:591
-#: includes/avada-functions.php:596
-#: includes/lib/inc/templates/rollover.php:211
+#: includes/avada-functions.php:596 includes/lib/inc/templates/rollover.php:211
 #: templates/wc-top-user-container.php:44
 msgid "View Cart"
 msgstr "Ver Carrinho"
@@ -1387,11 +1382,11 @@ msgstr ""
 #. translators: The slider ID.
 #: includes/avada-functions.php:902
 msgid "Slider ID: %s"
-msgstr ""
+msgstr "Slider ID: %s"
 
 #: includes/avada-functions.php:903
 msgid "Edit slider"
-msgstr ""
+msgstr "Editar slider"
 
 #: includes/avada-functions.php:904
 msgid "Edit Slider"
@@ -2515,8 +2510,7 @@ msgid "Go to Top"
 msgstr "Ir ao Topo"
 
 # @ Avada
-#: includes/class-avada-scripts.php:615
-#: templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:615 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "Detalhes"
 
@@ -3601,7 +3595,7 @@ msgstr ""
 # @ Avada
 #: includes/lib/inc/class-fusion-scripts.php:655
 msgid "Loading the next set of posts..."
-msgstr "Carregando as próximas postagens..."
+msgstr "Carregando mais postagens..."
 
 # @ Avada
 #: includes/lib/inc/class-fusion-scripts.php:656
@@ -3790,7 +3784,7 @@ msgstr ""
 
 #: includes/lib/inc/functions.php:161 includes/lib/inc/functions.php:163
 msgid "By %s"
-msgstr ""
+msgstr "Por %s"
 
 #: includes/lib/inc/functions.php:189
 msgid "Categories: %s"
@@ -5898,8 +5892,8 @@ msgstr "Fundo"
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:283
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:19
-#: includes/options/blog.php:47 includes/options/page_title_bar.php:29
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:19 includes/options/blog.php:47
+#: includes/options/page_title_bar.php:29
 #: includes/options/page_title_bar.php:36
 #: includes/options/page_title_bar.php:42
 msgid "Page Title Bar"
@@ -6415,20 +6409,19 @@ msgid "Adjust the button shortcode parameters for the second button."
 msgstr "Ajuste os parâmetros do botão shortcode para o segundo botão."
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:19
-#: includes/options/layout.php:40 includes/options/layout.php:46
+#: includes/metaboxes/tabs/tab_background.php:19 includes/options/layout.php:40
+#: includes/options/layout.php:46
 msgid "Layout"
 msgstr "Layout"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:22
-#: includes/options/layout.php:53
+#: includes/metaboxes/tabs/tab_background.php:22 includes/options/layout.php:53
 msgid "Wide"
 msgstr "Panorama"
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:23
-#: includes/options/layout.php:52 includes/options/portfolio.php:136
+#: includes/metaboxes/tabs/tab_background.php:23 includes/options/layout.php:52
+#: includes/options/portfolio.php:136
 msgid "Boxed"
 msgstr "Em Caixa"
 
@@ -7116,23 +7109,19 @@ msgid ""
 "the opposite side. %s"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:78
-#: includes/options/sidebars.php:68
+#: includes/metaboxes/tabs/tab_sidebars.php:78 includes/options/sidebars.php:68
 msgid "Sticky Sidebars"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:82
-#: includes/options/sidebars.php:75
+#: includes/metaboxes/tabs/tab_sidebars.php:82 includes/options/sidebars.php:75
 msgid "Sidebar 1"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:83
-#: includes/options/sidebars.php:76
+#: includes/metaboxes/tabs/tab_sidebars.php:83 includes/options/sidebars.php:76
 msgid "Sidebar 2"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:84
-#: includes/options/sidebars.php:77
+#: includes/metaboxes/tabs/tab_sidebars.php:84 includes/options/sidebars.php:77
 msgid "Both"
 msgstr ""
 
@@ -7192,7 +7181,7 @@ msgstr "Selecionar o nome exclusivo do slider."
 # @ Avada
 #: includes/metaboxes/tabs/tab_sliders.php:72
 msgid "Select Fusion Slider"
-msgstr "Selecionar Slider de Fusão"
+msgstr "Selecionar Fusion Slider"
 
 #: includes/metaboxes/tabs/tab_sliders.php:101
 msgid "Select Slider Revolution Slider"
@@ -8142,7 +8131,7 @@ msgstr ""
 
 #: includes/options/colors.php:27
 msgid "Colors"
-msgstr ""
+msgstr "Cores"
 
 #: includes/options/colors.php:34
 msgid ""
@@ -8722,7 +8711,7 @@ msgstr ""
 
 #: includes/options/events_calendar.php:31 includes/options/sidebars.php:427
 msgid "Events Calendar"
-msgstr ""
+msgstr "Calendário de Eventos"
 
 #: includes/options/events_calendar.php:38
 msgid "General Events Calendar"
@@ -11632,7 +11621,7 @@ msgstr ""
 
 #: includes/options/portfolio.php:345
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: includes/options/portfolio.php:346
 msgid "Turn on to display the author name on single portfolio posts."
@@ -11648,7 +11637,7 @@ msgstr ""
 
 #: includes/options/responsive.php:29
 msgid "Responsive"
-msgstr "Responsivo"
+msgstr "Responsividade"
 
 # @ Avada
 #: includes/options/responsive.php:35
@@ -13816,25 +13805,22 @@ msgstr "Cabeçalho"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:337
-#, fuzzy
 msgid "Show Footer"
-msgstr "Rodapé"
+msgstr "Mostrar Rodapé"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:342
-#, fuzzy
 msgid "Show Borders"
-msgstr "Mostrar Comentários"
+msgstr "Mostrar Bordas"
 
 # @ Avada
 #: includes/widget/class-fusion-widget-tweets.php:347
-#, fuzzy
 msgid "Transparent Background"
-msgstr "Fundo da Legenda"
+msgstr "Background Transparente"
 
 #: includes/widget/class-fusion-widget-tweets.php:365
 msgid "Tweets by %s"
-msgstr ""
+msgstr "Tweets por %s"
 
 # @ Avada
 #: search.php:36 searchform.php:17
@@ -13904,7 +13890,7 @@ msgstr "Editar perfil"
 # @ Avada
 #: templates/blog-layout.php:309 templates/blog-layout.php:335
 msgid "Read More"
-msgstr "Ler Mais"
+msgstr "Leia Mais"
 
 # @ Avada
 #: templates/blog-layout.php:320
@@ -14436,7 +14422,7 @@ msgstr ""
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
 msgctxt "by author"
 msgid "by %s"
-msgstr "Editar %s"
+msgstr "por %s"
 
 #: includes/wc-functions.php:74
 msgctxt "breadcrumb"

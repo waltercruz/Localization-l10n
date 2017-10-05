@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Avada\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2017-07-17 12:03:57+00:00\n"
-"PO-Revision-Date: 2016-03-07 14:58-0000\n"
+"PO-Revision-Date: 2017-10-04 15:35-0300\n"
 "Last-Translator: Michael Clarke\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
 "avada/language/pt_PT/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 2.0.1\n"
 
 # @ Avada
 #: 404.php:20
@@ -27,7 +27,7 @@ msgstr "Ups, página não encontrada!"
 
 #: 404.php:30
 msgid "Helpful Links"
-msgstr ""
+msgstr "Links Úteis"
 
 # @ Avada
 #: 404.php:43
@@ -43,7 +43,7 @@ msgstr "Não encontrou o que precisa? Faça uma pesquisa no site!"
 #: bbpress/form-search.php:14 includes/class-avada-layout-bbpress.php:141
 #: search.php:35
 msgid "Search for:"
-msgstr "Pesquisar"
+msgstr "Procurar por:"
 
 # @ Avada
 #: bbpress/form-search.php:17 includes/class-avada-layout-bbpress.php:144
@@ -53,12 +53,12 @@ msgstr "Pesquisar no Fórum..."
 # @ bbpress
 #: bbpress/loop-search-reply.php:38
 msgid "In reply to: "
-msgstr "%1$s em %2$s"
+msgstr "Em resposta a: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:44
 msgid "Topic: "
-msgstr "%1$s em %2$s"
+msgstr "Tópico: "
 
 # @ bbpress
 #: bbpress/loop-search-topic.php:49
@@ -113,13 +113,13 @@ msgstr "Nome"
 # @ Avada
 #: comments.php:64 contact.php:74 includes/class-avada-contact.php:154
 msgid "Email (required)"
-msgstr "E-mail (necessário mas não publicado)"
+msgstr "E-mail (necessário)"
 
 # @ Avada
 #: comments.php:64 includes/options/social_media.php:554
 #: includes/options/social_media.php:555
 msgid "Email"
-msgstr "Email (necessário mas não publicado)"
+msgstr "Email"
 
 # @ Avada
 #: comments.php:65
@@ -131,11 +131,11 @@ msgstr "Site"
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:153
 #: includes/lib/inc/redux/framework/FusionReduxCore/inc/fields/slides/field_slides.php:207
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: comments.php:69
 msgid "Comment"
-msgstr ""
+msgstr "Comentário"
 
 # @ Avada
 #: comments.php:69
@@ -186,6 +186,8 @@ msgstr ""
 msgid ""
 "Thank you %s for using our contact form! Your email was successfully sent!"
 msgstr ""
+"Obrigado %s por usar nosso formulário de contato! Seu email foi enviado com "
+"sucesso!"
 
 # @ Avada
 #: contact.php:68 contact.php:81 includes/class-avada-contact.php:171
@@ -700,7 +702,7 @@ msgstr ""
 # @ Avada
 #: includes/admin-screens/support.php:28
 msgid "Submit A Ticket"
-msgstr ""
+msgstr "Enviar um Ticket"
 
 #: includes/admin-screens/support.php:29
 msgid ""
@@ -924,8 +926,8 @@ msgstr ""
 
 # @ woocommerce
 #: includes/admin-screens/system-status.php:241
-#: includes/admin-screens/system-status.php:246
-#: templates/wc-view-order.php:167 templates/wc-view-order.php:184
+#: includes/admin-screens/system-status.php:246 templates/wc-view-order.php:167
+#: templates/wc-view-order.php:184
 msgid "N/A"
 msgstr ""
 
@@ -1350,8 +1352,7 @@ msgstr "Carrinho"
 
 # @ Avada
 #: includes/avada-functions.php:557 includes/avada-functions.php:591
-#: includes/avada-functions.php:596
-#: includes/lib/inc/templates/rollover.php:211
+#: includes/avada-functions.php:596 includes/lib/inc/templates/rollover.php:211
 #: templates/wc-top-user-container.php:44
 msgid "View Cart"
 msgstr "Ver carrinho"
@@ -2488,8 +2489,7 @@ msgid "Go to Top"
 msgstr ""
 
 # @ Avada
-#: includes/class-avada-scripts.php:615
-#: templates/wc-show-details-button.php:17
+#: includes/class-avada-scripts.php:615 templates/wc-show-details-button.php:17
 msgid "Details"
 msgstr "Detalhes"
 
@@ -3317,7 +3317,7 @@ msgstr ""
 
 #: includes/lib/inc/class-fusion-featured-image.php:175
 msgid "Fusion Theme Options"
-msgstr ""
+msgstr "Opções do Tema (Fusion)"
 
 #: includes/lib/inc/class-fusion-fusionredux.php:442
 msgid "%1$s Enter value including CSS unit (px, em, rem), ex: %2$s."
@@ -5859,8 +5859,8 @@ msgstr ""
 
 # @ Avada
 #: includes/metaboxes/metaboxes.php:283
-#: includes/metaboxes/tabs/tab_pagetitlebar.php:19
-#: includes/options/blog.php:47 includes/options/page_title_bar.php:29
+#: includes/metaboxes/tabs/tab_pagetitlebar.php:19 includes/options/blog.php:47
+#: includes/options/page_title_bar.php:29
 #: includes/options/page_title_bar.php:36
 #: includes/options/page_title_bar.php:42
 msgid "Page Title Bar"
@@ -6350,20 +6350,19 @@ msgid "Adjust the button shortcode parameters for the second button."
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:19
-#: includes/options/layout.php:40 includes/options/layout.php:46
+#: includes/metaboxes/tabs/tab_background.php:19 includes/options/layout.php:40
+#: includes/options/layout.php:46
 msgid "Layout"
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:22
-#: includes/options/layout.php:53
+#: includes/metaboxes/tabs/tab_background.php:22 includes/options/layout.php:53
 msgid "Wide"
 msgstr ""
 
 # @ Avada
-#: includes/metaboxes/tabs/tab_background.php:23
-#: includes/options/layout.php:52 includes/options/portfolio.php:136
+#: includes/metaboxes/tabs/tab_background.php:23 includes/options/layout.php:52
+#: includes/options/portfolio.php:136
 msgid "Boxed"
 msgstr ""
 
@@ -7045,23 +7044,19 @@ msgid ""
 "the opposite side. %s"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:78
-#: includes/options/sidebars.php:68
+#: includes/metaboxes/tabs/tab_sidebars.php:78 includes/options/sidebars.php:68
 msgid "Sticky Sidebars"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:82
-#: includes/options/sidebars.php:75
+#: includes/metaboxes/tabs/tab_sidebars.php:82 includes/options/sidebars.php:75
 msgid "Sidebar 1"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:83
-#: includes/options/sidebars.php:76
+#: includes/metaboxes/tabs/tab_sidebars.php:83 includes/options/sidebars.php:76
 msgid "Sidebar 2"
 msgstr ""
 
-#: includes/metaboxes/tabs/tab_sidebars.php:84
-#: includes/options/sidebars.php:77
+#: includes/metaboxes/tabs/tab_sidebars.php:84 includes/options/sidebars.php:77
 msgid "Both"
 msgstr ""
 
@@ -8071,7 +8066,7 @@ msgstr ""
 
 #: includes/options/colors.php:27
 msgid "Colors"
-msgstr ""
+msgstr "Cores"
 
 #: includes/options/colors.php:34
 msgid ""
@@ -11559,7 +11554,7 @@ msgstr ""
 
 #: includes/options/responsive.php:29
 msgid "Responsive"
-msgstr ""
+msgstr "Responsividade"
 
 # @ Avada
 #: includes/options/responsive.php:35
